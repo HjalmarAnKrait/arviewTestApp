@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">arviewTestApp</string>
+    <string name="api_key">sd4grh0omdj9a31exnpikhrmsu3v46</string>
+    <string name="accept">application/vnd.twitchtv.v5+json</string>
+</resources>

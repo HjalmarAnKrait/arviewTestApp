@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activities.FeedbackActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="60dp"
+        android:layout_gravity="center"
+        android:text="Rate us"
+        />
+    <RatingBar
+        android:id="@+id/rating_bar"
+        style="@style/RatingBarStyle"
+        android:layout_margin="30dp"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:numStars="5" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:textSize="30dp"
+        android:background="@drawable/rounded_edges"
+        android:layout_margin="20dp"
+        android:gravity="start"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:maxLength="50"
+        android:hint="Type something about our app\nmax 50 symbols"
+        android:inputType="textMultiLine"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send"
+        android:textAllCaps="false"
+        android:textSize="60dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/rounded_edges"/>
+
+</LinearLayout>
